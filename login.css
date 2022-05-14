@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background: #2b1a37 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    
+
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+}
+
+.left-login > h1{
+
+    color: aquamarine;
+    font-size: 3vw;
+}
+
+.right-login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-login{
+
+    width: 100%;
+    height: 45vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 14px;
+    box-shadow: 0px 10px 40px #00000056 ;
+}
+
+.card-login > h1{
+    color: #00ff7f ;
+    font-weight: 800;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+    justify-content: center;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    background: #514869 ;
+    border-radius: 10px;
+    padding: 15px;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056 ;
+    outline: none;
+
+
+}
+
+.textfield > label{
+
+    color: aliceblue;
+    margin: 5px;
+}
+
+.btn-login{
+    color: #2b1a37;
+    background: #00ff7f;
+    border: none;
+    border-radius: 12px;
+    margin: 25px;
+    width: 100%;
+    height: 50px;
+    font-weight: 800;
+    box-shadow: 0px 10px 40px #00000056 ;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 16px 0px;
+    cursor: pointer;
+
+}
+
+.left-login > img{
+    display: flex;
+    font-size: 50%;
+    width: 60%;
+    height: 60%;
+    margin-top: 20%;
+
+}
+
+@media only screen and (max-width: 950px){
+    .card-login{
+        width: 85%;
+    }
+}
+
+
+@media only screen and (max-width: 950px){
+
+.main-login{
+    flex-direction: column;
+}
+
+.left-login >h1{
+    display: none;
+}
+
+.left-login{
+    width: 100%;
+height: auto;
+
+}
+}
